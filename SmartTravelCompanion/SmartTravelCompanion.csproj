@@ -59,6 +59,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\202504100343419_AddDestinationsAndSavedDestinations.cs" />
+    <Compile Include="Migrations\202504100343419_AddDestinationsAndSavedDestinations.Designer.cs">
+      <DependentUpon>202504100343419_AddDestinationsAndSavedDestinations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Destination.cs" />
     <Compile Include="SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +81,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\DealService.cs" />
+    <EmbeddedResource Include="Migrations\202504100343419_AddDestinationsAndSavedDestinations.resx">
+      <DependentUpon>202504100343419_AddDestinationsAndSavedDestinations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>

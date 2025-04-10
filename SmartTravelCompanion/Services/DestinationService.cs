@@ -28,6 +28,17 @@ namespace SmartTravelCompanion.Services
 
             return suggestions.Any() ? suggestions : new List<Destination>();
         }
-        
+        public void SaveDestination(int userId, int destinationId)
+        {
+            if (!_context.SavedDestinations.Any(sd => sd.UserId == userId && sd.DestinationId == destinationId))
+            {
+                _context.SavedDestinations.Add(new SavedDestination
+                {
+                    UserId = userId,
+                    DestinationId = destinationId
+                });
+                _context.SaveChanges();
+            }
+        }
     }
 }

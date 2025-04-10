@@ -127,7 +127,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "SuggestionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SuggestionsForm";
+            this.Text = "Suggestion Form";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);

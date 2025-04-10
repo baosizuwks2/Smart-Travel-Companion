@@ -69,7 +69,14 @@
     </Compile>
     <Compile Include="Models\Destination.cs" />
     <Compile Include="Models\Restaurant.cs" />
+    <Compile Include="RestaurantsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestaurantsForm.Designer.cs">
+      <DependentUpon>RestaurantsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Services\DestinationService.cs" />
+    <Compile Include="Services\RestaurantService.cs" />
     <Compile Include="SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202504100435550_AddRestaurantsAndSavedRestaurants.resx">
       <DependentUpon>202504100435550_AddRestaurantsAndSavedRestaurants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantsForm.resx">
+      <DependentUpon>RestaurantsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>

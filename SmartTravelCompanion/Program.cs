@@ -16,7 +16,7 @@ namespace SmartTravelCompanion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SuggestionsForm());
+            Application.Run(new RestaurantsForm());
         }
     }
 }

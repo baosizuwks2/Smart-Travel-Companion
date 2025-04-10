@@ -53,4 +53,4 @@ namespace SmartTravelCompanion
             MessageBox.Show("Destination saved successfully!");
         }
     }
-}
+}   

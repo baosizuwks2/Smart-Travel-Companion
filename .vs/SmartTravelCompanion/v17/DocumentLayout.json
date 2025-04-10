@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF2EE77F-41AC-4570-A2D0-10CB8A1F181F}|SmartTravelCompanion.Tests\\SmartTravelCompanion.Tests.csproj|c:\\users\\dell\\downloads\\smarttravel\\smarttravelcompanion\\smarttravelcompanion.tests\\destinationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2EE77F-41AC-4570-A2D0-10CB8A1F181F}|SmartTravelCompanion.Tests\\SmartTravelCompanion.Tests.csproj|solutionrelative:smarttravelcompanion.tests\\destinationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DAAE0942-400F-428C-9D8B-9D1A535B6131}|SmartTravelCompanion\\SmartTravelCompanion.csproj|c:\\users\\dell\\downloads\\smarttravel\\smarttravelcompanion\\smarttravelcompanion\\suggestionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAAE0942-400F-428C-9D8B-9D1A535B6131}|SmartTravelCompanion\\SmartTravelCompanion.csproj|solutionrelative:smarttravelcompanion\\suggestionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,19 +47,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DestinationServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion.Tests\\DestinationServiceTests.cs",
+              "RelativeDocumentMoniker": "SmartTravelCompanion.Tests\\DestinationServiceTests.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion.Tests\\DestinationServiceTests.cs",
+              "RelativeToolTip": "SmartTravelCompanion.Tests\\DestinationServiceTests.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T04:26:21.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SuggestionsForm.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion\\SuggestionsForm.cs",
               "RelativeDocumentMoniker": "SmartTravelCompanion\\SuggestionsForm.cs",
               "ToolTip": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion\\SuggestionsForm.cs",
               "RelativeToolTip": "SmartTravelCompanion\\SuggestionsForm.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwDcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwDcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T04:10:16.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion\\Program.cs",
               "RelativeDocumentMoniker": "SmartTravelCompanion\\Program.cs",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SuggestionsForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion\\SuggestionsForm.cs",
               "RelativeDocumentMoniker": "SmartTravelCompanion\\SuggestionsForm.cs",
@@ -80,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DestinationService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion\\Services\\DestinationService.cs",
               "RelativeDocumentMoniker": "SmartTravelCompanion\\Services\\DestinationService.cs",
@@ -93,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DealServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion.Tests\\DealServiceTests.cs",
               "RelativeDocumentMoniker": "SmartTravelCompanion.Tests\\DealServiceTests.cs",
@@ -105,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SettingsForm.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion\\SettingsForm.cs",
               "RelativeDocumentMoniker": "SmartTravelCompanion\\SettingsForm.cs",
@@ -118,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SettingsForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\smarttravel\\SmartTravelCompanion\\SmartTravelCompanion\\SettingsForm.cs",
               "RelativeDocumentMoniker": "SmartTravelCompanion\\SettingsForm.cs",

@@ -15,5 +15,6 @@ namespace SmartTravelCompanion.Models
         public string Destinations { get; set; } // Lưu danh sách điểm đến dưới dạng chuỗi, ví dụ: "Hà Nội, Đà Nẵng"
         public bool NotificationEnabled { get; set; }
         public string PreferredActivities { get; set; }
+        public string DietaryPreferences { get; set; }
     }
 }

@@ -64,6 +64,7 @@
       <DependentUpon>202504100343419_AddDestinationsAndSavedDestinations.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Destination.cs" />
+    <Compile Include="Services\DestinationService.cs" />
     <Compile Include="SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +82,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\DealService.cs" />
+    <Compile Include="SuggestionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuggestionsForm.Designer.cs">
+      <DependentUpon>SuggestionsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Migrations\202504100343419_AddDestinationsAndSavedDestinations.resx">
       <DependentUpon>202504100343419_AddDestinationsAndSavedDestinations.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +106,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SuggestionsForm.resx">
+      <DependentUpon>SuggestionsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

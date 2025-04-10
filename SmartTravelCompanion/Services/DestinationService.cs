@@ -28,5 +28,6 @@ namespace SmartTravelCompanion.Services
 
             return suggestions.Any() ? suggestions : new List<Destination>();
         }
+        
     }
 }

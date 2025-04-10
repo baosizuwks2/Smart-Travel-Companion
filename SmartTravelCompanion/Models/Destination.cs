@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SmartTravelCompanion.Models
 {
-    internal class Destination
+    public class Destination
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string UniqueReason { get; set; }
+        public string SafetyTips { get; set; }
+        public string ActivityType { get; set; }
     }
 }

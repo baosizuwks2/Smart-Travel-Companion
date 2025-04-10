@@ -14,5 +14,6 @@ namespace SmartTravelCompanion.Models
         public decimal MaxPrice { get; set; }
         public string Destinations { get; set; } // Lưu danh sách điểm đến dưới dạng chuỗi, ví dụ: "Hà Nội, Đà Nẵng"
         public bool NotificationEnabled { get; set; }
+        public string PreferredActivities { get; set; }
     }
 }

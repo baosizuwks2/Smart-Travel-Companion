@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTravelCompanion", "SmartTravelCompanion\SmartTravelCompanion.csproj", "{DAAE0942-400F-428C-9D8B-9D1A535B6131}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTravelCompanion.Tests", "SmartTravelCompanion.Tests\SmartTravelCompanion.Tests.csproj", "{CF2EE77F-41AC-4570-A2D0-10CB8A1F181F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DAAE0942-400F-428C-9D8B-9D1A535B6131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAAE0942-400F-428C-9D8B-9D1A535B6131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAAE0942-400F-428C-9D8B-9D1A535B6131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2EE77F-41AC-4570-A2D0-10CB8A1F181F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2EE77F-41AC-4570-A2D0-10CB8A1F181F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2EE77F-41AC-4570-A2D0-10CB8A1F181F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2EE77F-41AC-4570-A2D0-10CB8A1F181F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

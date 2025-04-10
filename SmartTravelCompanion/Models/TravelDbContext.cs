@@ -15,6 +15,8 @@ namespace SmartTravelCompanion.Models
         public DbSet<UserPreference> UserPreferences { get; set; }
         public DbSet<Destination> Destinations { get; set; }
         public DbSet<SavedDestination> SavedDestinations { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
+        public DbSet<SavedRestaurant> SavedRestaurants { get; set; }
     }
 
     public class SavedDestination
@@ -22,5 +24,11 @@ namespace SmartTravelCompanion.Models
         public int Id { get; set; }
         public int UserId { get; set; }
         public int DestinationId { get; set; }
+    }
+    public class SavedRestaurant
+    {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public int RestaurantId { get; set; }
     }
 }

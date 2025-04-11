@@ -25,5 +25,30 @@ namespace SmartTravelCompanion.Services
                 .ToList();
             return suggestions.Any() ? suggestions : new List<Restaurant>();
         }
+        public void SaveRestaurant(int userId, int restaurantId)
+        {
+            try
+            {
+                if (!_context.SavedRestaurants.Any(sr => sr.UserId == userId && sr.RestaurantId == restaurantId))
+                {
+                    var restaurantExists = _context.Restaurants.Any(r => r.Id == restaurantId);
+                    if (!restaurantExists)
+                    {
+                        throw new ArgumentException($"Restaurant with ID {restaurantId} does not exist.");
+                    }
+
+                    _context.SavedRestaurants.Add(new SavedRestaurant
+                    {
+                        UserId = userId,
+                        RestaurantId = restaurantId
+                    });
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Failed to save restaurant: " + ex.Message, ex);
+            }
+        }
     }
 }
